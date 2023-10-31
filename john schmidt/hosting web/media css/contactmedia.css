@@ -1,0 +1,129 @@
+@media(max-width:480px)
+{
+    .navbar
+{
+    width: 80%;
+    top: 0%;
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 50px;
+    justify-content: space-between;
+    position:absolute ;
+}
+.logo
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.nav-menu
+{
+    right: 1%;
+    background-color: white;
+    display: none;
+    position: absolute;
+    padding: 20px ;
+}
+a
+{
+    color: black;
+}
+a:hover
+{
+    color:#d5c455;
+}
+.icon
+{
+    align-items: center;
+}
+.icon:hover .nav-menu
+{
+    display: block;
+}
+.header
+{
+    text-align: center;
+    font-family: arial,sans-serif,"poppins";
+    font-weight: bold;
+    margin-top: 40%;
+    font-size: 14px;
+    color: #999999;
+}
+.form
+{
+    width: 90%;
+    display:flex ;
+    flex-direction: column;
+    height: 1000px;
+    margin: 100px auto;
+    box-shadow: 8px 8px 20px black;
+    font-family: arial,sans-serif,"poppins";
+}
+.heading
+{
+    padding: 40px 30px;
+    width:300px;
+}
+.form .submit
+{
+    width: 100%;
+    background-color:whitesmoke ;
+    height: 100%;
+}
+.info1
+{
+    padding: 40px 30px;
+    width: 300px;
+}
+.info2
+{
+    position: absolute;
+    top: 32%;
+    left: 8%;
+}
+.info3
+{
+    position: absolute;
+    top: 42%;
+    left: 8%;
+}
+.inpu1 input
+{
+    height: 40px;
+    width: 90%;
+    border: none;
+    background-color: transparent;
+    margin-top: 220px;
+    margin-left: 8%;
+    
+}
+.inpu5 button
+{
+    height:40px ;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 120px;
+    background-color: #d5c455;
+    color: white;
+    margin: 20px 30px;
+}
+.location iframe
+{
+    margin-top: 120px;
+    width: 100%;
+    height: 400px;
+}
+.inpu6 span
+{
+    font-size: 18px;
+    margin: 20px 30px;
+}
+.footer
+{
+    margin-top: 130%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+}

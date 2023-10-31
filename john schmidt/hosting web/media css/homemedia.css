@@ -1,0 +1,54 @@
+@media(max-width:480px)
+{
+    .main
+{
+    width: 100%;
+}
+    .back
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80%;
+}
+.btn
+{
+    position: absolute;
+    top: 185%;
+    left: 10%;
+}
+.btn .btn1
+{
+    background-color: #d5c455;
+    font-weight: bold;
+    padding:15px 30px;
+    border: none;
+    color: white;
+}
+.btn .btn2
+{
+    background-color:rgb(224, 220, 220);
+    font-weight: bold;
+    padding:15px 30px;
+    border: none;
+    margin-left: 10px;
+}
+.footer
+{
+    margin-top: 240%;
+    height: 80px;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-bottom: 20%;
+    text-align: center;
+    position: absolute;
+}
+
+
+}
