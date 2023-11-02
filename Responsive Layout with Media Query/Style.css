@@ -1,0 +1,395 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins';
+}
+.main{
+    width: 100%;
+}
+.background-img{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Image/university.avif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.navigation{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.navigation .logo{
+    width: 120px;
+    height: 120px;
+}
+.navigation .logo img{
+    width: 100%;
+}
+.nav-menu ul{
+    display: flex;
+}
+.nav-menu ul li{
+    padding: 0px 25px;
+    font-weight: bold;
+}
+.nav-menu ul li a{
+    color: white;
+}
+.nav-menu a::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: auto    ;
+    background-color: red;
+}
+.nav-menu a:hover::after{
+    transition: all 0.4s;
+    width: 100%;
+}
+.content{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.content h1{
+    font-size: 42px;
+    color: white;
+    margin-bottom: 25px;
+}
+.content p{
+    color: rgb(218, 218, 218);
+    font-size: 22px;
+}
+.content .btn{
+    padding: 10px 20px;
+    width: 260px;
+    margin: 20px auto;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s;
+}
+.btn a{
+    color: white;
+}
+.btn:hover{
+    background-color: rgb(187, 4, 4);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.course{
+    width: 70%;
+    margin: 75px auto;
+    text-align: center;
+}
+.course .para{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+.course .row{
+    display: flex;
+    
+}
+.course .row .course-1{
+    background-color: rgb(249, 233, 233);
+    border-radius: 10px;
+    margin: 15px 25px;
+    padding: 0px 10px;
+}
+.course .row h2{
+    text-transform: uppercase;
+    padding-top: 15px;
+    color: blueviolet;
+}
+.course .row p{
+    padding: 10px 15px 20px 15px;
+    text-align: justify;
+}
+.branches{
+    width: 73%;
+    margin: auto;
+    text-align: center;
+}
+.branches .row-image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.branches .row-image .image-1{
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+    position: relative;
+}
+.branches .row-image .image-1 img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+.branches .row-image .city-name{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+}
+.city-name:hover{
+    transition: all 0.5s;
+    background-color: rgba(120, 0,0,0.5);
+}
+.row-image .city-name h2{
+    display: block;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    opacity: 0;
+}
+.city-name:hover h2{
+    transition: all 0.6s;
+    bottom: 45%;
+    opacity: 1;
+}
+.faculties{
+    width: 70%;
+    margin: 75px auto;
+    text-align: center;
+}
+.faculties .faculty-row{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.faculties .faculty-row .faculty-image{
+    width: 400px;
+    border-radius: 20px;
+}
+.faculties .faculty-row .faculty-image img{
+    width: 100%;
+    height: 267px;
+    border-radius: 20px;
+}
+.faculties .faculty-row .faculty-image .paragraph{
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 15px 25px;
+    font-size: 14px;
+    background-color: rgb(249, 233, 233);
+}
+.student-review{
+    width: 65%;
+    margin: 100px auto;
+    text-align: center;
+}
+.student-review .student-row{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.student-review .student-row .student-box{
+    background-color: rgb(249, 233, 233);
+    width: 550px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+}
+.student-review .student-row .student-box .student-image{
+    width: 300px;
+    height: 90px;
+    border-radius: 50%;
+}
+.student-review .student-row .student-box .student-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.student-review .student-row .student-box .student-info{
+    margin-left: 15px;
+    text-align: left;
+    text-align: justify;
+    font-size: 14px;
+}
+.student-review .student-row .student-box .student-info h2{
+    margin-top: 10px;
+}
+footer{
+    width: 67%;
+    height: 750px;
+    margin: auto;
+}
+footer .address-row{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+footer .address-row .first-box{
+    width: 42%;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 5px rgb(231, 231, 231);
+}
+footer .address-row .first-box .location{
+    display: flex;
+    margin-bottom: 25px;
+}   
+footer .address-row .first-box .location .icons{
+    margin-top: 12px;
+
+}
+footer .address-row .first-box .location .icons i{
+    background-color: rgba(190, 225, 241, 0.5);
+    margin-top: 100px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: rgb(0, 114, 190);
+}
+footer .address-row .first-box .location .location-address{
+    margin-left: 15px;
+}
+footer .address-row .first-box .map{
+    width: 100%;
+}
+footer .address-row .first-box .map iframe{
+    width: 100%;
+    height: 300px;
+}
+footer .address-row .second-box{
+    width: 55%;
+    padding: 30px;
+    box-shadow: 0px 0px 10px 5px rgb(231, 231, 231);
+}
+footer .address-row .second-box .name-row{
+    display: flex;
+}
+footer .address-row .second-box .name{
+    width: 53%;
+}
+footer .address-row .second-box .name-row input{
+    display: block;
+    outline: none;
+    width: 305px;
+    height: 40px;
+    border: 1px solid rgb(201, 201, 201);
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+footer .address-row .second-box input{
+    width: 100%;
+    height: 40px;
+    display: block;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(201, 201, 201);
+}
+footer .address-row .second-box textarea{
+    margin-top: 5px;
+    display: block;
+    outline: none;
+    border: 1px solid rgb(201, 201, 201);
+}
+footer .address-row .second-box button{
+    background-color: rgb(41, 143, 226);
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 40px auto;
+}
+footer .address-row .second-box a{
+    font-size: 16px;
+    color: white;
+}
+.second-box .btn1:hover{
+    background-color: rgb(0, 57, 104);
+    transition: 0.4s;
+}
+
+
+/* Media Query is for Mobile */
+@media (min-width:0px) and (max-width:480px){
+    .navigation{
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation .logo{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .background-img .content{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .background-img .content h1{
+        font-size: 32px;
+    }
+    .background-img .content p{
+        font-size: 16px;
+        width: 95%;
+        margin: auto;
+    }
+    .background-img .content .btn{
+        margin-top: 40px;
+    }
+    .course,.branches,.faculties,.student-review,footer{
+        width: 100%;
+    }
+    .course .para{
+        width: 89%;
+        text-align: justify;
+    }
+    .row,.row-image,.faculty-row,.student-row,.address-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-1,.faculty-image{
+        margin: 15px auto;
+    }
+    .student-review .student-row .student-box{
+        margin: 15px auto;
+        width: 99%;
+    }
+    footer p{
+        width: 89%;
+        text-align: justify;
+        margin: auto;
+    }
+    footer .address-row .first-box{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    footer .address-row .first-box p{
+        width: 100%;
+    }
+    footer .address-row .second-box{
+        width: 100%;
+    }
+    footer .address-row .second-box .name-row{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .address-row .second-box .name-row input{
+        width: 420px;
+    }
+    footer .address-row .second-box textarea{
+        width: 420px;
+    }
+}
