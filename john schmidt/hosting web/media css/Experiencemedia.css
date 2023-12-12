@@ -1,0 +1,90 @@
+@media(max-width:480px)
+{
+    .navbar
+{
+    width: 80%;
+    top: 0%;
+    display: flex;
+    text-align: center;
+    margin-left: 10%;
+    padding-top: 50px;
+    justify-content: space-between;
+    position:absolute ;
+}
+.logo
+{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.nav-menu
+{
+    right: 1%;
+    background-color: white;
+    display: none;
+    position: absolute;
+    padding: 20px ;
+}
+a
+{
+    color: black;
+}
+a:hover
+{
+    color:#d5c455;
+}
+.icon
+{
+    align-items: center;
+}
+.icon:hover .nav-menu
+{
+    display: block;
+}
+.header
+{
+    text-align: center;
+    font-family: arial,sans-serif,"poppins";
+    font-weight: bold;
+    margin-top: 35%;
+    font-size: 14px;
+    color: #999999;
+}
+.experience-row
+{
+    width:100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.experience-col
+{
+    width:80%;
+    margin: auto;
+    border-radius: 10px;
+}
+.experience-img
+{
+    width:80px;
+    height:80px;
+    position: relative;
+    left:8%;
+    top:30px;
+    border-radius: 50%;
+    background-color: #d5c455;
+}
+.experience-img img
+{
+    width:70%;
+    height:70%;
+    position: relative;
+    left:15%;
+    top:16%;
+}
+.footer
+{
+    margin-top: 15%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+}
