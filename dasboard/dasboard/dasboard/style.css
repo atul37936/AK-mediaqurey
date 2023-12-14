@@ -1,0 +1,271 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.left
+{
+    height: 100vh;
+    width: 15%;
+    background-color: rgb(150, 111, 186);
+    position: fixed;
+}
+.nav
+{
+    position: absolute;
+    top: 10%;
+    color: white;       
+}
+.bar{
+    display: none;
+}
+.nav .main-box .logo
+{
+    padding: 15px 20px;
+
+}
+.nav .main-box .logo a
+{
+    color: white;
+}
+.nav .main-box .logo:hover
+{
+    background-color:#f74367;
+    width: 100%;
+    border-radius: 25px;
+}
+.right
+{
+    width: 80%;height: 50px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    position: absolute;
+    top: 5px;
+    left: 16%
+}
+.main-contener
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+}
+.con-1
+{
+    color: rgb(126, 52, 196);
+}
+.con-2 input
+{
+    height: 32px;
+    width:  100%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: none;
+   
+}
+.con-3 img
+{
+    height: 45px;
+    border-radius: 50%;
+}
+.btn1
+{
+    background-color: black;
+    width: 100%;
+    height: 32px;
+    position: relative;
+}
+.right-2
+{
+    width: 80%;height: 35vh;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    position: absolute;
+    top: 12%;
+    left: 16%
+}
+.right-2 h6
+{
+    color: rgb(155, 113, 194);   
+    padding: 20px 0px 5px 20px;
+}
+.box-head
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 97%;   
+}
+.box-1
+{
+    width: 20%;
+    height: 150px;
+    background-color: #fff;
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+.box-1 h6
+{
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+.box-1 i
+{
+    padding: 15px;
+    border-radius: 50%;
+    font-size: small;
+    position: relative;
+    left: 80%;
+    bottom: 55%;
+    background-color: #f74367;
+}
+.down
+{
+    position: relative;
+    bottom: 20px;
+    color: rgb(200, 199, 199);
+}
+.right-3
+{
+    width: 80%;height: 32vh;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 16%
+}
+.main-layer
+{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px auto;
+}
+.main-layer .layer-1 h5
+{
+    color:rgb(126, 52, 196);
+}
+.main-layer .layer-1 h6
+{
+    margin: 20px 0px 0px 0px;
+}
+.sub-head h6
+{
+    color: rgb(126, 52, 196);   
+    padding: 20px 0px 5px 20px;
+}
+.chart
+{
+    height: 100%;
+    width: 400px;
+}
+.calender
+{
+    height: 350px;
+    width: 400px;
+}
+.footer
+{
+    display: flex;
+    height: 350px;
+    width: 80%;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 90%;
+    left: 16%;
+}
+.wrapper {
+    margin: 15px auto;
+    max-width: 1100px;
+}
+
+.container-calendar {
+    background: #ffffff;
+    padding: 15px;
+    max-width: 475px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td, .table-calendar th {
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    vertical-align: top;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+    outline: 1px dashed #00BCD4;
+}
+
+.date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+}
+
+/* sunday */
+.date-picker:nth-child(1) {
+  color: red;
+}
+
+/* friday */
+.date-picker:nth-child(6) {
+  color: green;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+    overflow: hidden;
+    clear: both;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+.footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+
+.footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    zoom: 1;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
